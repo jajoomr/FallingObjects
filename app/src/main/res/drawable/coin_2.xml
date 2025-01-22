@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer Circle (Coin Shape) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M24,0a24,24 0 1,1 0,48a24,24 0 1,1 0,-48" />
+
+    <!-- Inner Circle for Depth -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M24,4a20,20 0 1,1 0,40a20,20 0 1,1 0,-40" />
+
+    <!-- Rupee Symbol (Path Representation) -->
+    <!-- Rupee Symbol -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M27.32 14C26.2 11.64 23.8 10 21 10H12V6H36V10H29.48C30.44 11.16 31.16 12.52 31.58 14H36V18H32C31.46 23.6 26.74 28 21 28H19.54L33 42H27.46L14 28V24H21C24.52 24 27.44 21.4 27.92 18H12V14H27.32Z" />
+</vector>
